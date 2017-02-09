@@ -1,0 +1,28 @@
+GIT
+  remote: https://github.com/sunny4381/open_jtalk-ruby.git
+  revision: a2ac70fee0f9380c6fa8c331b2bb17f927555e31
+  specs:
+    open_jtalk-ruby (0.8.0)
+      lame (~> 0)
+
+PATH
+  remote: vendor/bundle
+  specs:
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ffi (1.9.17)
+    lame (0.0.4)
+      ffi
+    wikipedia-client (1.6.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  open_jtalk-ruby!
+  wikipedia-client
+
+BUNDLED WITH
+   1.14.3
